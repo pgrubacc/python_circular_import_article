@@ -2,7 +2,7 @@ print('First line of b.py')
 
 from package.package_a import a  # alternative way of writing import package.package_a.a
 
-print('Imported fun_a inside b.py')
+print('Imported module a inside b.py')
 
 
 def fun_b():
