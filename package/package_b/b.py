@@ -10,6 +10,9 @@ def fun_b():
     return 'b'
 
 
-print('Executing fun_a from b.py')
-a.fun_a()
+def fun_calling_fun_a():
+    print('Executing fun_a from b.py')
+    a.fun_a()
+
+
 print('Last line of b.py')
